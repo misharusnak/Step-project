@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+header {
+    margin: 0 auto;
+}
+
+.header-container {
+    margin: 30px 36px;
+    display: flex;
+    max-width: 1296px;
+}
+
+.header-logo {
+    font-family: Quicksand, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.explore {
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: rgba(15, 130, 119, 1);
+    padding: 10px 10.5px;
+    border: none;
+    border-radius: 4px;
+    color: rgba(238, 238, 238, 1);
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.explore::after {
+    content: url(../images/caret.svg);
+    margin-left: 10px;
+}
+
+.learn-input {
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(92, 92, 92, 1);
+    padding: 9px 9px;
+    border-top: 1px solid rgba(92, 92, 92, 1);
+    border-bottom: 1px solid rgba(92, 92, 92, 1);
+    border-left: 1px solid rgba(92, 92, 92, 1);
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    outline: none;
+    padding-right: 70px;
+    width: 210px;
+    margin-left: 50px;
+}
+
+.search-btn {
+    background: rgba(15, 130, 119, 1);
+    border: 1px solid rgba(92, 92, 92, 1);
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+
+.navbar-menu ul {
+    display: flex;
+    margin-left: 60px;
+    padding: 10px 0;
+}
+
+.navbar-text {
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.navbar-text li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+
+.log-sign-btns {
+    margin-left: auto;
+}
+
+.log-sign-btn:last-child {
+    margin-left: 10px;
+}
+
+
+.log-sign-btn {
+    font-family: Quicksand , sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+padding: 10px 12px;
+background: rgba(15, 130, 119, 1);
+border: none;
+border-radius: 4px;
+transition: 0.3s;
+cursor: pointer;
+}
+
+.log-sign-btn a {
+    text-decoration: none;
+    color: rgba(238, 238, 238, 1);
+}
+
+.log-sign-btn:hover {
+background-color: white;
+color: rgba(15, 130, 119, 1);
+transition: 0.3s;
+}
+
+.log-sign-btn:hover a {
+    color: rgba(15, 130, 119, 1);
+    transition: 0.3s;
+    }
+    
+
+
+.container {
+    margin: 30px 36px;
+    display: flex;
+    max-width: 1296px;
+}
+
+.comfortably-section div {
+    background: rgba(219, 243, 237, 1);
+    border-radius: 12px;
+}
+
+.comfortably-wrapper {
+    margin: 170px 110px;
+}
+
+.comfortably-title {
+    font-family: Quicksand , sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.comfortably-subtitle {
+    font-family: Quicksand , sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 482px;
+    margin-top: 20px;
+}
+
+.learn-buttons-wrapper {
+    margin-top: 30px;
+}
+
+.learn-button {
+    background: rgba(15, 130, 119, 1);
+    font-family: Quicksand , sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(238, 238, 238, 1);
+padding: 8px 10.5px;
+border-radius: 4px;
+border: 2px solid rgba(15, 130, 119, 1);
+transition: 0.3s;
+cursor: pointer;
+}
+
+.learn-button:last-child{
+    margin-left: 20px;
+}
+
+.learn-button:hover {
+background-color: rgba(255, 255, 255, 0);
+color: rgba(15, 130, 119, 1);
+transition: 0.3s;
+}
+
+.bg-img {
+    margin-top: 39px;
+    margin-bottom: 30px;
+}
