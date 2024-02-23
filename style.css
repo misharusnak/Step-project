@@ -239,7 +239,7 @@ header {
   width: 392px;
   height: 294px;
   border-radius: 15px;
-  transition: 0, 3s;
+  transition: 0.3s;
 }
 
 .tools-cards:hover {
